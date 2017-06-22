@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>SPL Programming Language</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet" href="assets/plugins/prism/prism.css">-->
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body data-spy="scroll">
+    
+    <!---//Facebook button code-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header">  
+        <div class="container">            
+            <h1 class="logo pull-left">
+                <a class="scrollto" href="#promo">
+                    <span class="logo-title">SPL</span>
+                </a>
+            </h1><!--//logo-->              
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->            
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#license">Documentation</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#docs">Sintax</a></li>                 
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+    
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header">
+        <div class="container text-center">
+            <h2 class="title">SPL<span class="highlight"> <br>Web Dev</span></h2>
+            <p class="intro">A simple programming language for web development</p>
+            <div class="btns">
+                <a class="btn btn-cta-primary" href="" target="_blank">Github</a>
+                <a class="btn btn-warning" href="" target="_blank">DOWNLOAD ZIP</a>
+                 <a class="btn btn-cta-primary" href="" target="_blank">Download Report</a>
+            </div>
+            <ul class="meta list-inline">
+                <li><a href="" target="_blank">View on GitHub</a></li>
+                <li>Project created by: <a href="" target="_blank">Carlos Rivera, Ivan Miranda, Fernando Rodríguez and Jorge Cruz</li>
+            </ul><!--//meta-->
+        </div><!--//container-->
+        
+    </section><!--//promo-->
+    
+    <!-- ******ABOUT****** --> 
+    <a href="">
+    <section id="about" class="about section" disabled>
+        <div class="container">
+            <h2 class="title text-center">What is SPL?</h2>
+            <h3 class="intro text-center">SPL looks to simplify the creation of HTML documents and make web development easier and hopefully more effective with little to no HTML experience.</h3>
+
+        </div><!--//container-->
+
+         <div class="container">
+            <h2 class="title text-center">Motivation</h2>
+            <h3 class="intro text-center">To create a programming language that simplifies the creation of HTML documents. Normally, HTML documents may have a lot of repetitive code, and may be messy. Our goal is to generate HTML code through simple commands.</h3>
+
+        </div><!--//container-->
+    </section><!--//about-->
+    </a>
+    
+    <!-- ******FEATURES****** --> 
+    <section id="features" class="features section">
+        <div class="container text-center">
+            <h2 class="title">Features</h2>
+            <ul class="feature-list list-unstyled">
+                <li><i class="fa fa-check"></i> Command that initializes the HTML document</li>
+                <li><i class="fa fa-check"></i> Commands that create HTML components</li>
+                <li><i class="fa fa-check"></i>Commands that create Bootstrap components<a href="http://getbootstrap.com/" target="_blank"></a></li>
+                <li><i class="fa fa-check"></i> Basic styling commands</li>
+                <li><i class="fa fa-check"></i> Add content to HTML documents</li>
+            </ul>
+        </div><!--//container-->
+    </section><!--//features-->
+    
+    <!-- ******LICENSE****** --> 
+    <section id="license" class="license section">
+        <div class="container">
+            <div class="license-inner">
+            <h2 class="title text-center">Documentation</h2>
+                <div class="info">
+                <br>
+                <br>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Commands</th>
+                    <th>Parameters</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>start</td>
+                    <td><em>filename</em></td>
+                    <td>Command that generates the html file</td>
+                  </tr>
+                  <tr>
+                    <td>add</td>
+                    <td><em>filename, tag, tag_id </em></td>
+                    <td>Command that adds an html component or tag to the end of the html file  </td>
+                  </tr>
+                  <tr>
+                    <td>addinside</td>
+                    <td><em>target_id, tag, tag_id</em></td>
+                    <td>Command that adds an html component or tag inside another html component or tag</td>
+                  </tr>
+                  <tr>
+                    <td>addafter</td>
+                    <td><em>target_id, tag, tag_id</em></td>
+                    <td>Command that adds an html component or tag after another html component or tag</td>
+                  </tr>
+                   <tr>
+                    <td>addbefore</td>
+                    <td><em>target_id, tag, tag_id</em></td>
+                    <td>Command that adds an html component or tag before another html component or tag</td>
+                  </tr>
+                  <tr>
+                    <td>put</td>
+                    <td><em>target_id, content</em></td>
+                    <td>Command that allows content </td>
+                  </tr>
+                  <tr>
+                    <td>style</td>
+                    <td><em>target_id, style_option</em></td>
+                    <td>Command that initializes the styling options <a class="scrollto" href="#style"><br>Syntax</a></td>
+                  </tr>
+                </tbody>
+            </table> 
+            <a class="scrollto" href="#docs"><button type="button" class="btn btn-default">Syntax</button></a>
+            <br>
+            <br>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>HTML Component</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>p</td>
+                    <td>Defines a paragraph</td>
+                  </tr>
+                  <tr>
+                    <td>div</td>
+                    <td>Defines a section in a document</td>
+                  </tr>
+                  <tr>
+                    <td>h1 to h6</td>
+                    <td>Defines HTML headings</td>
+                  </tr>
+                   <tr>
+                    <td>img</td>
+                    <td>Defines an image element <a class="scrollto" href="#image"><br>Syntax</a></td>
+                  </tr>
+                </tbody>
+            </table>   
+            
+            <br> 
+            <br>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Bootstrap Component</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>row</td>
+                    <td>Defines a row </td>
+                  </tr>
+                  <tr>
+                    <td>columns</td>
+                    <td>Defines a column: sm (for tablets), md (for desktops), lg (for larger desktops) </td>
+                  </tr>
+                  <tr>
+                    <td>table</td>
+                    <td>Defines a table</td>
+                  </tr>
+                  <tr>
+                    <td>signup</td>
+                    <td>Defines a signup form</td>
+                  </tr>
+                   <tr>
+                    <td>jumbotron</td>
+                    <td>Defines a jumbotron, a big box for calling extra attention to some special content or information</td>
+                  </tr>
+                </tbody>
+            </table> 
+           <a class="scrollto" href="#bootstrap"> <button type="button" class="btn btn-default">Syntax</button> </a> 
+            </div><!--//license-inner-->
+        </div><!--//container-->
+    </section><!--//how-->
+
+    <!-- ******DOCS****** --> 
+    <section id="docs" class="docs section">
+        <div class="container">
+            <div class="docs-inner">
+
+            <h2 class="title text-center">Language Sintax Examples</h2>
+            
+             
+                
+               
+                <h3>Start</h3><p>Command to generate the html file</p>
+                
+                
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+    <!--&ltp class="my-style"&gt
+      Hello World!
+    &lt/p&gt-->
+                    start "index"
+                     </code></pre>
+                </div><!--//code-block-->
+            <br>
+           <h3>Add</h3>
+           <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+    <!--&ltp class="my-style"&gt
+      Hello World!
+    &lt/p&gt-->
+                    add div "div_id"
+
+                    add p "paragraph_id"
+
+                    add h1 "header_id"
+
+                     </code></pre>
+                </div><!--//code-block-->
+           <br>
+            <h3>Add Inside</h3>
+           <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+    <!--&ltp class="my-style"&gt
+      Hello World!
+    &lt/p&gt-->
+                    addinside "target_id" div "div_id"
+
+                    addinside "target_id" p "paragraph_id"
+
+                    addinside "target_id" h1 "header_id"
+                     </code></pre>
+                </div><!--//code-block-->
+            <br>
+             <h3>Add After</h3>
+           <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+    <!--&ltp class="my-style"&gt
+      Hello World!
+    &lt/p&gt-->
+                     addafter "target_id" div "div_id"
+
+                     addafter "target_id" p "paragraph_id"
+
+                     addafter "target_id" h1 "header_id"
+                     </code></pre>
+                </div><!--//code-block-->
+                <br>
+                 <h3>Add Before</h3>
+           <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+    <!--&ltp class="my-style"&gt
+      Hello World!
+    &lt/p&gt-->
+                     addbefore "target_id" div "div_id"
+
+                     addbefore "target_id" p "paragraph_id"
+
+                     addbefore "target_id" h1 "header_id"
+                     </code></pre>
+                </div><!--//code-block-->
+
+                <br>
+             <h3>Put</h3>
+           <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre><code class="language-markup">
+    <!--&ltp class="my-style"&gt
+      Hello World!
+    &lt/p&gt-->
+                     put "target_id" "content"
+                     </code></pre>
+                </div><!--//code-block-->
+                <br>
+            <div class="block">
+            <h3 id="image">Images</h3>
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre>
+    <code class="language-css">
+                    add img "image_id" "image_path"
+
+                    addinside "target_id" img "image_id" "image_path"
+
+                    addafter "target_id" img "image_id" "image_path"
+
+                    addbefore "target_id" img "image_id" "image_path"
+    </code></pre>
+                </div><!--//code-block-->
+            </div><!--//block-->
+            <div class="block">
+            <h3 id="style">Style</h3>
+                <p>Style Command Sintax</p>
+                
+                <div class="code-block">
+                    <!--//Use Prismjs - http://prismjs.com/index.html#basic-usage -->
+                    <pre>
+    <code class="language-css">
+                   style "target_id" (customColorbackground:#2C3E50)
+
+                   style "target_id" (customColortext:white)
+
+                   style "target_id" (marginleft:45%)
+
+                   style "target_id" (marginright:45%)
+
+                   style "target_id" (paddingtop:-100px)
+
+                   style "target_id" (paddingbottom:50px)
+
+                   style "target_id" (width:45%)
+
+                   style "target_id" (height:45%)
+    </code></pre>
+                </div><!--//code-block-->
+            </div><!--//block-->
+            
+          
+            <div class="block">
+                <h3 id="bootstrap">Bootstrap Commands</h3>
+                <div class="code-block">
+                    <pre><code class="language-javascript">
+    add navbar {["Home","home"],["About","about"],["Contact","contact"]}
+
+    addafter "target_id" signup "signup"
+                    </code></pre>
+                </div><!--//code-block-->
+                
+            </div><!--//block-->   
+                   
+        </div><!--//container-->
+         </div><!--//block-->
+    </section><!--//features-->
+    
+    
+    
+    
+      
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="" target="_blank">Xiaoying Riley</a> for developers. <br> Edited by <a href="" target="_blank">Carlos Rivera</a> </small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+     
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>   
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>   
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
+    <!--<script type="text/javascript" src="assets/plugins/prism/prism.js"></script> -->   
+    <script type="text/javascript" src="assets/js/main.js"></script>       
+</body>
+</html> 
+
